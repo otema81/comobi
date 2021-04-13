@@ -1,10 +1,10 @@
 <header role="banner">
   <div class="header-logo-list">
-    <img src="images/ademe_logo.jpg" width="300" alt="Ademe">
-    <img src="images/ANCT_Logo.jpg" width="300" alt="ANCT">
+    <img src="{{ "images/ademe_logo.jpg" | relative_url }}" width="300" alt="Ademe">
+    <img src="{{ "images/ANCT_Logo.jpg" | relative_url }}" width="300" alt="ANCT">
   </div>
   <div class="page-header">
-    <img src="images/logo-comobi-sfb.png" width="300" alt="CoMobi">
+    <img src="{{ "images/logo-comobi-sfb.png" | relative_url }}" width="300" alt="CoMobi">
     <h1 class="project-name">{{ page.title | default: site.title }}</h1>
     <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
   </div>
