@@ -37,8 +37,7 @@ Nous avons choisi d'utiliser CleverCloud une entreprise Française, car ils nous
 | ----------- | ----------- | 
 | GOOGLE_API_KEY     | [clé d'API google](#google_api) permettant à l'application d'accéder au fichier google |
 | GOOGLE_DRIVER_SPREADSHEET_ID | identifiant de tableur google stockant les trajets lié [au formulaire d'inscription](#form) |
-| LOCALISATION_KNOWLEDGE_GOOGLE_SPREADSHEET_ID | identifiant du [tableur avec la liste de lieux spécifiques](#localisation) qui pourront apparaître dans les menus déroulants lors de la recherche |
-| PORT | le port sur lequel le serveur écoute (8080) |
+
 - dans "Information" 
     - > "Branche Github utilisée pour le déploiement" > modifier la branche github qui est déployée et utiliser *deploy* (cf [doc sur le déploiement automatisé](#google_workflow))
     - cochez *Forcer HTTPS*
