@@ -43,6 +43,22 @@ Nous avons choisi d'utiliser CleverCloud une entreprise Française, car ils nous
     - cochez *Forcer HTTPS*
     - cliquez sur Sauvegarder
 
+### c. Lié le dépôt github à l'application clevercloud
+#### cloner en local et ajouter un remote
+```$ git clone <nom du dépôt dans lequel le fork a été fait>
+$ git remote add clever git+ssh://git@push-n2-par-clevercloud-customers.services.clever-cloud.com/app_462b421a-8932-4cb0-83c9-fe6a49faea83.git ```
+
+#### Créer une variable JEKYLL
+Dans votre dépôt dans Settings
+Cliquez dans le menu à gauche Secrets > Actions
+Puis, sur le bouton en haut à gauche pour créer une nouvelle clé secrette
+Nom : JEKYLL_PAT
+Valeur : un mot de passe sécurisé
+Enregistrer
+
+#### Pousser la branche deploy sur le remote clever
+``$ git push clever branch:deploy```
+
 #### <a name="google_api"></a> Où trouver ma clé d'API Google ?
 - Créer un projet dans [la console Google](https://console.developers.google.com/home/dashboard)
 - Dans le menu à gauche cliquez sur > API et Services > Identifiant
