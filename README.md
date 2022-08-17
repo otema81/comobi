@@ -45,8 +45,10 @@ Nous avons choisi d'utiliser CleverCloud une entreprise Française, car ils nous
 
 ### c. Lié le dépôt github à l'application clevercloud
 #### cloner en local et ajouter un remote
-```$ git clone <nom du dépôt dans lequel le fork a été fait>
-$ git remote add clever git+ssh://git@push-n2-par-clevercloud-customers.services.clever-cloud.com/app_462b421a-8932-4cb0-83c9-fe6a49faea83.git ```
+```
+$ git clone <nom du dépôt dans lequel le fork a été fait>
+$ git remote add clever git+ssh://git@push-n2-par-clevercloud-customers.services.clever-cloud.com/app_462b421a-8932-4cb0-83c9-fe6a49faea83.git
+```
 
 #### Créer une variable JEKYLL
 Dans votre dépôt dans Settings
