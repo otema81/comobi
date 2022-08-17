@@ -59,7 +59,9 @@ Valeur : un mot de passe sécurisé
 Enregistrer
 
 #### Pousser la branche deploy sur le remote clever
-``$ git push clever branch:deploy```
+```
+$ git push clever branch:deploy
+```
 
 #### <a name="google_api"></a> Où trouver ma clé d'API Google ?
 - Créer un projet dans [la console Google](https://console.developers.google.com/home/dashboard)
